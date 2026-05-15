@@ -1,13 +1,4 @@
-const skills = [
-  { name: "C", level: 80 },
-  { name: "C++", level: 82 },
-  { name: "Python", level: 88 },
-  { name: "SQL", level: 78 },
-  { name: "HTML", level: 92 },
-  { name: "CSS", level: 88 },
-  { name: "JavaScript", level: 85 },
-  { name: "Node.js", level: 75 },
-];
+const skills = ["C", "C++", "Python", "SQL", "HTML", "CSS", "JavaScript", "Node.js"];
 
 export function Skills() {
   return (
@@ -20,22 +11,13 @@ export function Skills() {
       </div>
 
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-        {skills.map((s, i) => (
+        {skills.map((name, i) => (
           <div
-            key={s.name}
-            className="glass group relative overflow-hidden rounded-2xl p-5 transition-all duration-300 hover:-translate-y-1 hover:glow-ring animate-fade-up"
+            key={name}
+            className="glass group relative overflow-hidden rounded-2xl p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:glow-ring animate-fade-up"
             style={{ animationDelay: `${i * 60}ms` }}
           >
-            <div className="flex items-center justify-between">
-              <span className="font-display text-lg font-semibold text-foreground">{s.name}</span>
-              <span className="text-xs text-primary">{s.level}%</span>
-            </div>
-            <div className="mt-4 h-1.5 w-full overflow-hidden rounded-full bg-white/5">
-              <div
-                className="h-full rounded-full bg-gradient-to-r from-secondary to-primary transition-all duration-700 group-hover:brightness-125"
-                style={{ width: `${s.level}%` }}
-              />
-            </div>
+            <span className="font-display text-lg font-semibold text-foreground">{name}</span>
             <div className="pointer-events-none absolute -right-8 -top-8 size-24 rounded-full bg-primary/20 blur-2xl transition-opacity duration-300 opacity-0 group-hover:opacity-100" />
           </div>
         ))}
