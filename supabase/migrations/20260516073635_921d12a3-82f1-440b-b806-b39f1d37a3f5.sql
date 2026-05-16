@@ -1,0 +1,1 @@
+UPDATE public.projects SET github_url = 'https://github.com/rajitha-0512/medibook' WHERE title = 'MediBook';
