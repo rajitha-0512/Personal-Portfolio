@@ -58,7 +58,7 @@ export function Hero() {
             <Github className="size-5" />
           </a>
           <a
-            href="https://www.linkedin.com/in/gummaluri-sri-rajitha"
+            href="https://www.linkedin.com/in/rajithagummaluri051207/"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
