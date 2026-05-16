@@ -10,7 +10,7 @@ export function Footer() {
         <div className="flex items-center gap-3">
           <a href="mailto:rajithagummaluri@gmail.com" aria-label="Email" className="hover:text-primary"><Mail className="size-4" /></a>
           <a href="https://github.com/rajitha-0512" target="_blank" rel="noreferrer" aria-label="GitHub" className="hover:text-primary"><Github className="size-4" /></a>
-          <a href="https://www.linkedin.com/in/gummaluri-sri-rajitha" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-primary"><Linkedin className="size-4" /></a>
+          <a href="https://www.linkedin.com/in/rajithagummaluri051207/" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-primary"><Linkedin className="size-4" /></a>
         </div>
       </div>
     </footer>

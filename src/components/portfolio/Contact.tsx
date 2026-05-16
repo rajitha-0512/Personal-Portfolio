@@ -11,7 +11,7 @@ const links = [
     icon: Linkedin,
     label: "LinkedIn",
     value: "Gummaluri Sri Rajitha",
-    href: "https://www.linkedin.com/in/gummaluri-sri-rajitha",
+    href: "https://www.linkedin.com/in/rajithagummaluri051207/",
   },
   {
     icon: Github,
