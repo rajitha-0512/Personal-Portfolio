@@ -41,7 +41,7 @@ export function Hero() {
             <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
           </a>
           <a
-            href="/resume.pdf"
+            href="/Sri-Rajitha-Gummaluri-Resume.pdf"
             download
             className="glass inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-foreground transition-all hover:glow-ring"
           >
@@ -49,7 +49,7 @@ export function Hero() {
             Download Resume
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/rajitha-0512"
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
@@ -58,7 +58,7 @@ export function Hero() {
             <Github className="size-5" />
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/gummaluri-sri-rajitha"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
